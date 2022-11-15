@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+#bg-login {
+  background-color: gainsboro;
+  padding-top: 150px;
+  padding-bottom: 170px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+
+#body {
+  font-family: 'Lato', sans-serif;
+  color: #4A4A4A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+  width: 350px;
+  position: relative;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+
+}
+form .form-field2::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form .form-field2:nth-child(1)::before {
+  background-image: url(../../../src/Images/user-icon.png);
+  width: 20px;
+  height: 20px;
+  top: 15px;
+}
+form .form-field2:nth-child(2)::before {
+  background-image: url(../../../src/Images/lock-icon.png);
+  width: 16px;
+  height: 16px;
+}
+form .form-field2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4A4A4A;
+  text-indent: 40px;
+}
+form .btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color:indianred;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+}
+
+
+#create-account-wrap {
+    background-color:white;
+    color: #8a8b8e;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+  }
+
+  

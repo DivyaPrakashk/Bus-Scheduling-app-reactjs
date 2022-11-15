@@ -1,0 +1,25 @@
+#userhome-card{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    width:400px;
+    height: 200px;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:hsl(0, 0%, 86%, 0.8);
+    border: 1px solid black;
+    position:relative;
+    padding-top: 30px;
+}
+
+#bg-userhome{
+    background-image: url('../../Images/pexels2.jpg'); 
+    padding-top: 150px;
+    padding-bottom: 170px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}

@@ -1,0 +1,131 @@
+.form-div {
+    width: 100%;
+    min-height: 180px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 10px 0 0;
+    color: #c77070;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+  }
+
+
+  .form-div :hover {
+    box-shadow: 0 16px 30px 1px rgba(73, 72, 72, 0.1);
+    transition: 1s;
+  }
+
+
+  .list-data-div{
+   
+    opacity: 0.9;
+  }
+
+  .out {
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 247);
+    /* background-image: url('.././../Images/pexels2.jpg'); */
+  }
+
+
+  .busBox {
+    width: 100%;
+    min-height: 180px;
+    height: auto;
+    border: 1px solid rgb(216, 40, 40);
+    margin-top: 20px;
+    padding: 10px 0 0;
+    color: #4a4a4a;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  .busBox:hover {
+    box-shadow: 0 16px 30px 1px rgb(3, 3, 3);
+    transition: 1s;
+  }
+
+  .busBoxSection1 {
+    height: 50%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .busBoxSection11 {
+    width: 25%;
+    margin-left: 5%;
+    word-spacing: 2%;
+    color: #e61111;
+  }
+
+  .busBoxSection12 {
+    width: 10%;
+  }
+
+  .busBoxSection13 {
+    width: auto;
+    margin-left: auto;
+  }
+  .busBoxSection14 {
+    width: auto;
+    margin-left: auto;
+  }
+
+  .busBoxSection15 {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+  .busBoxSection16 {
+    width: 15%;
+  }
+  
+  .busBoxSection17 {
+    width: 15%;
+  }
+  
+  .busBoxSection2 {
+    height: 16%;
+    margin-bottom: 1%;
+    display: flex;
+  }
+  
+  .busBoxSection21 {
+    width: 160px;
+    height: 100%;
+  }
+  
+  .busBoxSection3 {
+    min-height: 25%;
+    height: auto;
+  }
+
+  .mainBar {
+    width: 60%;
+    display: flex;
+    margin-left: 40%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .link-div{
+    background-color: rgb(202, 53, 53);
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid black;
+  
+
+  }
+
+

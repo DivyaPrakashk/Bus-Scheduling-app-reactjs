@@ -1,0 +1,29 @@
+#bg-home{
+    background-image: url(../../Images/bus.jpg); 
+    padding-top: 50px;
+    padding-bottom: 270px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    
+   
+}
+
+
+#home-card{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    width:400px;
+    height: 200px;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:hsl(0, 0%, 86%, 0.8);
+    border: 1px solid black;
+    position:relative;
+    padding-top: 30px;
+}
+

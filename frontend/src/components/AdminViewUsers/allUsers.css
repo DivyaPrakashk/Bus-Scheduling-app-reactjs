@@ -1,0 +1,34 @@
+#heading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cont2{
+   
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 300px;
+    padding-top: 50px;
+    background-color: gainsboro;
+    
+ 
+}
+
+#backgr{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position:relative; 
+    background-color: gainsboro;
+}
+
+#table{
+    border-radius: 20px;
+   
+    background-color:white;
+}

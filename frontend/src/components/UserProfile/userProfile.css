@@ -1,0 +1,56 @@
+
+
+#bg-profile {
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 170px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+  }
+
+
+#cont1{
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    overflow:auto;
+    border-radius: 20px;
+}
+
+
+
+#img{
+    border-radius:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#profile{
+    margin-left: 10px;
+    text-align: center;
+}
+.container{
+    background-color: indianred;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pic{
+    background-color: indianred;
+}
+#buttons{
+    align-items:center ;
+    justify-content: center;
+}
+#history{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#contents{
+   
+    text-align: left;
+}

@@ -1,0 +1,12 @@
+nav{
+    position:absolute;
+    background-color: rgb(223, 59, 59);
+    color: white;
+}
+#logo{
+    width: 50px;
+    height : 50px;
+}
+#mobileMenu{
+    padding-left: 60%;
+}
